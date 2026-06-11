@@ -1,0 +1,11 @@
+{
+  "name": "crrem-skills",
+  "version": "0.1.0",
+  "description": "CRREM v2.05 decarbonization pathways — stranding risk analysis, carbon target compliance, and net-zero benchmarking for real estate portfolios.",
+  "author": {
+    "name": "Soapbox",
+    "url": "https://soapbox.build"
+  },
+  "homepage": "https://github.com/soapboxbuild/crrem-skills",
+  "license": "Apache-2.0"
+}

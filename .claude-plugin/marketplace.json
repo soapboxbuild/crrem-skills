@@ -1,0 +1,18 @@
+{
+  "name": "crrem-plugins",
+  "owner": {
+    "name": "Soapbox",
+    "url": "https://soapbox.build"
+  },
+  "plugins": [
+    {
+      "name": "crrem-skills",
+      "source": {
+        "source": "github",
+        "repo": "soapboxbuild/crrem-skills"
+      },
+      "description": "CRREM v2.05 decarbonization pathways for real estate portfolio analysis.",
+      "version": "0.1.0"
+    }
+  ]
+}
