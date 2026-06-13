@@ -7,5 +7,6 @@
     "url": "https://soapbox.build"
   },
   "homepage": "https://github.com/soapboxbuild/crrem-skills",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "skills": ["skills"]
 }
