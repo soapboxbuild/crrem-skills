@@ -90,3 +90,12 @@ A CRREM assessment should include:
 4. Energy mix with per-carrier emission factors
 5. Pathway table (every 5 years, target vs actual)
 6. Numbered recommendations (electrification, efficiency, renewables)
+
+## MCP Tools Available
+
+When the crrem MCP server is connected, use these tools directly:
+- `get_pathway(country, propertyType)` — pathway targets by year
+- `get_emission_factors(country, carrier)` — grid emission factors
+- `get_climate_zone(postalCode, country)` — climate zone lookup
+- `calculate_stranding_risk(currentIntensity, country, propertyType)` — full stranding analysis
+- `list_property_types(country)` — available property types
