@@ -7,35 +7,5 @@
     "url": "https://soapbox.build"
   },
   "homepage": "https://github.com/soapboxbuild/crrem-skills",
-  "license": "Apache-2.0",
-  "slash_commands": [
-    {
-      "trigger": "stranding",
-      "label": "Stranding risk",
-      "description": "Is this building above the CRREM pathway?",
-      "icon": "⚠️",
-      "template": "Assess the CRREM stranding risk for this building. Compare current carbon intensity against the pathway targets and identify the stranding year. {cursor}"
-    },
-    {
-      "trigger": "pathway",
-      "label": "CRREM pathway",
-      "description": "Carbon & energy targets by property type",
-      "icon": "📉",
-      "template": "Show the CRREM v2.05 carbon and energy pathway targets for {cursor}"
-    },
-    {
-      "trigger": "benchmark",
-      "label": "Benchmark vs CRREM",
-      "description": "How does this building compare to the pathway?",
-      "icon": "📊",
-      "template": "Benchmark this building against the CRREM pathway. Calculate the performance gap and years to stranding. {cursor}"
-    },
-    {
-      "trigger": "esg",
-      "label": "ESG report",
-      "description": "Carbon compliance summary for ESG reporting",
-      "icon": "🌱",
-      "template": "Generate an ESG carbon compliance summary for this building using CRREM methodology. {cursor}"
-    }
-  ]
+  "license": "Apache-2.0"
 }
