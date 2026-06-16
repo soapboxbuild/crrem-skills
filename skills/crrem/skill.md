@@ -3,6 +3,33 @@ name: crrem
 description: Use when asked about real estate decarbonization, carbon pathway compliance, CRREM stranding risk, ESG reporting, net-zero targets, or benchmarking building energy performance against climate targets. Triggers on: CRREM, stranding risk, carbon pathway, decarbonization, real estate ESG, net-zero building, kgCO2/m2.
 ---
 
+## Required Inputs — Collect Before Analysis
+
+1. **Pathway version**: 1.5°C (required for SBTi Buildings compliance) or 2°C
+2. **Asset class** (select one of CRREM's 16): Office, Retail, Hotel, Multifamily Residential, Industrial/Logistics, Healthcare, Education, Mixed-Use, Senior Housing, Student Housing, Data Center, Self-Storage, Supermarket, Lab/Life Science, Other
+3. **Country and city**
+4. **Building area basis** — confirm: is this GIA (Gross Internal Area) or NLA (Net Leasable Area)?
+   - CRREM uses **GIA**. Convert NLA → GIA before analysis (typical: NLA ≈ GIA × 0.85, confirm with client)
+   - Mixing area bases inflates/deflates intensity metrics by 10–30%
+5. **Current EUI** (kWh/m²/yr on GIA basis) and **GHG intensity** (kgCO2e/m²/yr)
+6. **Planned measures** and projected EUI/GHG reductions with implementation years
+
+**Benchmark source by country:**
+| Region | Source |
+|--------|--------|
+| Canada | NRCan CEUD (Commercial and Institutional Building Energy Use Data) |
+| United States | CBECS (Commercial Buildings Energy Consumption Survey) |
+| EU member states | Eurostat energy statistics |
+| UK | CIBSE TM54 / NABERS UK |
+| Australia | NABERS |
+| Other | CRREM v2.05 country-specific benchmark tables |
+
+**Stranding year definition:** The year when the building's actual (or projected) GHG intensity trajectory intersects above the CRREM pathway curve for its asset class and country. This is a trajectory intersection — not a static threshold. The pathway curve declines toward net zero every year.
+
+**CRREM version disclosure:** Always state "CRREM v2.05" and the reference year in outputs. Pathways update annually — prior analyses may use outdated curves.
+
+**SBTi note:** SBTi Buildings requires the 1.5°C pathway. The 2°C pathway does not satisfy SBTi Buildings criteria.
+
 # CRREM Pathways Data
 
 CRREM v2.05 decarbonization pathway data is in the public GitHub repo `soapboxbuild/crrem-data`.
